@@ -17,3 +17,9 @@ With the **glad.c** file in your working directory, run in your terminal
 ```bash
 g++ triangle.cpp glad.c -ldl -glfw -o triangle
 ```
+
+Then run the created **triangle** executable through
+
+```bash
+./triangle
+```
