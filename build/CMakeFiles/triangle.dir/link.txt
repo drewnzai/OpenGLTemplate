@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/triangle.dir/src/triangle.cpp.o CMakeFiles/triangle.dir/src/glad.c.o -o triangle  -lglfw 

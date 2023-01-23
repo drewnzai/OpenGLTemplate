@@ -11,15 +11,18 @@ Tried it in Windows but found it to involve too many steps, and I just prefer pr
 ## Installation Process
 Basically, just folllow through in this article by [Priyanshu](https://medium.com/geekculture/a-beginners-guide-to-setup-opengl-in-linux-debian-2bfe02ccd1e)
 
-## Run on Linux
-With the **glad.c** file in your working directory, run in your terminal
+### Modifications
+I decided to create a project that could also run on Windows, and possibly OS X, with minimal additional configuration.
+As such, I have decided to use CMake to build my project.
+This is visible through my use of **CMakeLists.txt** file.
 
+## Running
+To run the application, move to the **build** directory and run **Make**
 ```bash
-g++ triangle.cpp glad.c -ldl -glfw -o triangle
+make
 ```
 
-Then run the created **triangle** executable through
-
+Then run the created executable
 ```bash
 ./triangle
 ```

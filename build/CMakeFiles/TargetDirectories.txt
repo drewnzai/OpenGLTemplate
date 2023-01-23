@@ -1,0 +1,3 @@
+/home/deusnoire/Projects/OpenGLTemplate/build/CMakeFiles/triangle.dir
+/home/deusnoire/Projects/OpenGLTemplate/build/CMakeFiles/edit_cache.dir
+/home/deusnoire/Projects/OpenGLTemplate/build/CMakeFiles/rebuild_cache.dir
